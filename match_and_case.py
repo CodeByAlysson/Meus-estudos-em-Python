@@ -5,14 +5,16 @@
 print("Olá! Vamos explorar o uso de match e case em Python.")
 print()
 
-comando = input("Digite o comando desejado: Iniciar, Parar ou Continuar: ")
+comando = input("Digite o comando desejado: play, pause ou continuar: ")
 
-match comando: 
-    case "Iniciar":
-        print("O sistema está iniciando...")
-    case "Parar":
-        print("O sistema está parando...")
-    case "Continuar":
-        print("O sistema está continuando...")
+match comando:
+    case "play":
+        print("▶️  Tocando...")
+    case "pause":
+        print("⏸  Pausado...")
+    case "continuar":
+        print("▶️  Continuando...")
+    case "parar":
+        print("⏹  Parado.")
     case _:
-        print("Comando inválido!")
+        print("❓ Comando não reconhecido!")
