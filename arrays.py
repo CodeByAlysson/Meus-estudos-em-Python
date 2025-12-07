@@ -14,4 +14,25 @@ print(numeros)  # Imprime o array modificado: [7, 6, 9]
 numeros.append(12)  # Adiciona o número 12 ao final do array
 print(numeros)  # Imprime o array modificado: [7, 6, 9, 12]
 
+numeros.sort()  # Ordena o array em ordem crescente
+print(numeros)  # Imprime o array ordenado: [6, 7, 9, 12]
+
+numeros.reverse()  # Inverte a ordem dos elementos no array
+print(numeros)  # Imprime o array invertido: [12, 9, 7, 6]
+
+numeros.pop()  # Remove o último elemento do array
+print(numeros)  # Imprime o array após a remoção: [12, 9, 7]    
+
+numeros.insert(1, 15)  # Insere o número 15 na posição 1
+print(numeros)  # Imprime o array após a inserção: [12, 15, 9, 7]
+
+numeros[2] = "CodeByAlysson"  # Modifica o terceiro elemento para uma string
+print(numeros)  # Imprime o array após a modificação: [12, 15, "CodeByAlysson", 7]
+
+# Podemos ainda criar uma lista dentro de outra lista (array multidimensional)
+
+numeros.insert(2, [1, 2, 3])  # Insere uma lista na posição 2
+print(numeros)  # Imprime o array após a inserção: [12, 15, [1, 2, 3], "CodeByAlysson", 7]
+
+
 # fim do arquivo arrays.py 
