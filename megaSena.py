@@ -7,7 +7,7 @@ def combinacoes(n, k):
 
 numeros_totais = 60
 numeros_escolhidos = 6
-quantidade_jogos = 1  # número de jogos simples
+quantidade_jogos = 192  # número de jogos simples
 
 total_combinacoes = combinacoes(numeros_totais, numeros_escolhidos)
 
