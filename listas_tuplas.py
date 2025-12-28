@@ -23,3 +23,4 @@ print("Agora vamos começar a concluir algumas tarefas...\n")
 concluir_tarefa("Arrumar o quarto")
 concluir_tarefa("Estudar para a prova")
 listar_tarefas(tarefas)
+
