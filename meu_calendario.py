@@ -1,8 +1,8 @@
 # Nesta seção de estudo te ensino a como criar um calendário em Python usando o módulo calendar.
 
 import calendar
-yy = 2025
-mm = 11
+yy = 2026
+mm = 1
 
 # display do calendário
 
